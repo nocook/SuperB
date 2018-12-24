@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.5.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CProtocolNet">
+      <HintPath>..\lib\CProtocolNet.dll</HintPath>
+    </Reference>
+    <Reference Include="CWXThread">
+      <HintPath>..\lib\CWXThread.dll</HintPath>
+    </Reference>
+    <Reference Include="DeviceAccessFramework">
+      <HintPath>..\lib\DeviceAccessFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="WXTool">
+      <HintPath>..\lib\WXTool.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

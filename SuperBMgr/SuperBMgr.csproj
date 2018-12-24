@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MQTTnet" Version="2.8.4" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.13" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="NLog" Version="4.5.11" />
+    <PackageReference Include="StackExchange.Redis" Version="2.0.513" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SuperBDevAccess\SuperBDevAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MqttCommon">
+      <HintPath>C:\Users\lushu\source\work\guanlang\inIoT-Cloud\DeviceAccess\MqttCommon\bin\Debug\netcoreapp2.0\MqttCommon.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
